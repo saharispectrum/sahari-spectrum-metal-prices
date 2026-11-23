@@ -1,7 +1,7 @@
 {
   "name": "sahari-spectrum-price-scraper",
   "version": "1.0.0",
-  "description": "Automated gold and silver price scraper using Playwright",
+  "description": "Automated gold and silver price scraper",
   "main": "fetch-prices.js",
   "scripts": {
     "start": "node fetch-prices.js"
