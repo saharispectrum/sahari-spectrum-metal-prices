@@ -2,18 +2,10 @@ name: Update Metal Prices
 
 on:
   schedule:
-   # Start at 9:45 AM IST
-    - cron: '45 9 * * *'
+    # Every 5 minutes from 10:00 AM to 10:15 AM IST
+    - cron: '0,5,10,15 10 * * *'
       timezone: 'Asia/Kolkata'
 
-    # Every 15 minutes from 10:00 AM to 9:45 PM IST
-    - cron: '0,15,30,45 10-21 * * *'
-      timezone: 'Asia/Kolkata'
-
-    # 10:00 PM and 10:15 PM IST
-    - cron: '0,15 22 * * *'
-      timezone: 'Asia/Kolkata'
-      
   workflow_dispatch:
 
 permissions:
