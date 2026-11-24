@@ -3,7 +3,7 @@ name: Update Metal Prices
 on:
   schedule:
     # Every 5 minutes from 10:00 AM to 10:15 AM IST
-    - cron: '0,5,10,15 10 * * *'
+    - cron: '*/5 * * * *'
       timezone: 'Asia/Kolkata'
 
   workflow_dispatch:
